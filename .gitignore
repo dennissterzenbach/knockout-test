@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.iml
+.idea/
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace

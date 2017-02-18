@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>sterzden - Knockout Test</title>
+        <base href="/" />
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+        <!-- WebApp - default -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body>
+        <main>
+            <p>
+                There are <span data-bind="text: myPersons().length"></span> items
+            </p>
+
+            <p data-bind="text: myPersonsText"></p>
+
+            <button data-bind="enable: myPersons().length < 5, click: add">Add</button>
+
+        </mdin>
+
+        <script type="text/javascript" src="assets/js/knockout-3.4.1.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+    </body>
+</html>

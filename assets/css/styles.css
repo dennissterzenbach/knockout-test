@@ -1,0 +1,19 @@
+body,html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+main {
+    margin: 0;
+    border: 0;
+    padding: 0.5rem;
+    display: block;
+    background-color: #444;
+    color: #eee;
+    font-size: 125%;
+    line-height: 1.5;
+}
